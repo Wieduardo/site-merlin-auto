@@ -2,18 +2,18 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   :root {
-    --color-background: #FFF;
-    --color-primary: #F2A30B;
-    --color-primary-light: #FCC761;
-    --color-secondary: #D3D3D3;
-    --color-tertiary: #FFE182;
-    --color-text: #252525;
-    --color-text2: #FFF;
+    --color-background: #fff;
+    --color-primary: #0081C9;
+    --color-primary-light: #5BC0F8;
+    --color-secondary: #FFC93C;
+    --color-tertiary: #86E5FF;
+    --color-text: #FFF;
+    --color-text2: #252525;
     --color-red: #B4423E; 
     --color-success: #7CC39C;
     --color-warning: #FBEA85;
     --color-error: #EA524F;
-    font-size: 60%;
+    font-size: 60%;   
   }
   @media (min-width: 700px) {
     :root {
@@ -28,10 +28,7 @@ export default createGlobalStyle`
   }
   body,html{
     width: 100vw;
-    height: 100vh; 
-  }
-  html:focus-within {
-    scroll-behavior: smooth;
+    height: 100vh;
   }
   body {
     background: var(--color-background);

@@ -1,7 +1,8 @@
 import {Routes, Route} from 'react-router-dom'
-import Home from '../pages/Home';
+import Home from '../pages/Home'
 
-const RoutesMain = () => {
+
+const MainRoutes = () => {
     return(
         <Routes>
             <Route path='/' element={<Home/>}/>
@@ -9,4 +10,4 @@ const RoutesMain = () => {
     )
 }
 
-export default RoutesMain;
+export default MainRoutes;
