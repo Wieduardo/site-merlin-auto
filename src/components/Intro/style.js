@@ -28,6 +28,7 @@ export const IntroText= styled.div`
     display: flex;
     flex-direction: column;
     justify-content:center;
+
     &>h4{
         color: var(--color-primary);
         margin: 10px 0;
@@ -37,6 +38,9 @@ export const IntroText= styled.div`
     &>h3{
         font-weight: bold;
         font-size: 2rem;
+    }
+    &>text{
+        text-align: justify;
     }
 
     @media(max-width: 800px){
