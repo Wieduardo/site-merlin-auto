@@ -99,5 +99,9 @@ export const FooterEndereco= styled.div`
     @media(max-width: 800px){
         width: 90vw;
         min-height:10vh;
+
+        &>span{
+            font-size: 1.5rem;
+        }
     }
 `

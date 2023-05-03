@@ -5,14 +5,14 @@ const SectionMain = () =>{
         <UlSectionMain>
             <LowContainer>
                 <h3>Atendimento</h3>
-                <span>Segunda a Sexta</span>
+                <span>Seg. à Sext.</span>
             </LowContainer>
             <LowContainerMid>
                 <h3>Horário</h3>
-                <span>8:00 às 18:00</span>
+                <span>8:00h às 18:00h</span>
             </LowContainerMid>
             <LowContainer>
-                <h3>Orçamento Imediato</h3>
+                <span>Orçamento Imediato</span>
             </LowContainer>
         </UlSectionMain>
     </>)

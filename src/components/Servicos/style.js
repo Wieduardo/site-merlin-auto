@@ -3,12 +3,13 @@ import styled from "styled-components";
 export const SectionServicos= styled.section`
 
     height: 55vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--color-primary-light);
     color: var(--color-text);
-    box-shadow: -5px -10px 10px var(--color-primary-light), -5px 10px 10px var(--color-primary-light);
+    box-shadow: -5px -10px 10px var(--color-primary-light), -5px 10px 10px var(--color-primary-light),5px -10px 10px var(--color-primary-light), 5px 10px 10px var(--color-primary-light);
     font-family: primaryFont;
 
     &>h2{
@@ -30,6 +31,11 @@ export const ServicosContainer= styled.ul`
     @media(max-width: 800px){
         justify-content: flex-start;
         padding:0 20px;
+    }
+
+    @media(max-width: 360px){
+        padding: 0px 20px;
+        overflow-y: scroll;
     }
 `
 
@@ -56,11 +62,21 @@ export const ServicoCard = styled.li`
     @media(max-width: 800px){
         min-width:250px;
     }
+
+    @media(max-width: 360px){
+        min-width: 150px;
+        outline: none;
+
+        &>span{
+            font-size: 40px;
+            margin: 0 10px;
+        }
+    }
 `
 
 export const ServicoCardContent= styled.div`
     color: var(--color-primary);
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 
     &>h2{
         margin: 5px 0;
@@ -75,6 +91,27 @@ export const ServicoCardContent= styled.div`
     }
 
     @media(max-width: 800px){
-        font-size: 1.23rem;
+        
+        &>span{
+            font-size: 1.1rem;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+    }
+
+    @media(max-width: 360px){
+
+        &>h2{
+            font-size: 1.1rem;
+        }
+
+        &>span{
+            font-size: 1rem;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
     }
 `

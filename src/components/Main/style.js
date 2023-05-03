@@ -31,6 +31,10 @@ export const Principal= styled.div`
     justify-content: center;
     text-align:center;
     gap:20px;
+
+    @media(max-width: 360px){
+        font-size: 1.3rem;
+    }
 `
 
 export const Whatsapp= styled.a`

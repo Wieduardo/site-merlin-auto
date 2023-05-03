@@ -30,7 +30,14 @@ export const LowContainer= styled.li`
 
     @media(max-width: 800px){
         text-align: center;
-        font-size: 2.4rem;
+        font-size: 1.8rem;
+    }
+
+    @media(max-width: 360px){
+    
+        &>h3,span{
+            font-size: 1.3rem;
+        }
     }
 `
 export const LowContainerMid= styled.li`
@@ -54,6 +61,13 @@ export const LowContainerMid= styled.li`
 
     @media(max-width: 800px){
         text-align: center;
-        font-size: 2.4rem;
+        font-size: 1.8rem;
+    }
+
+    @media(max-width: 360px){
+    
+        &>h3,span{
+            font-size: 1.3rem;
+        }
     }
 `
