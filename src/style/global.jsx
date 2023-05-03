@@ -1,12 +1,19 @@
 import { createGlobalStyle } from "styled-components";
+import USSRSTENCILWEBFONT from "../fonts/USSRSTENCIL.otf"
 
 export default createGlobalStyle`
+
+  @font-face{
+    font-family: "primaryFont";
+    src: url(${USSRSTENCILWEBFONT});
+  }
+
   :root {
     --color-background: #fff;
     --color-primary: #0081C9;
     --color-primary-light: #5BC0F8;
     --color-secondary: #FFC93C;
-    --color-tertiary: #86E5FF;
+    --color-tertiary: #146C94;
     --color-text: #FFF;
     --color-text2: #252525;
     --color-red: #B4423E; 
@@ -25,6 +32,7 @@ export default createGlobalStyle`
     padding: 0;
     outline:0;
     box-sizing: border-box;
+    font-family: primaryFont;
   }
   body,html{
     width: 100vw;

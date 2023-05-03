@@ -7,7 +7,8 @@ export const StyledMain= styled.main`
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-size: 3rem;
 `
 
 export const StyledMainContent= styled.section`
@@ -28,6 +29,7 @@ export const Principal= styled.div`
     flex-direction:column;
     align-items:center;
     justify-content: center;
+    text-align:center;
     gap:20px;
 `
 

@@ -14,7 +14,7 @@ const Servicos = () => {
                 <ServicoCard key={index}>
                     <span>{servico.icon}</span>
                     <ServicoCardContent>
-                        <h3>{servico.nome}</h3>
+                        <h2>{servico.nome}</h2>
                         <span>{servico.descri}</span>
                     </ServicoCardContent>
                 </ServicoCard>))

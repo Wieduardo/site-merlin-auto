@@ -8,15 +8,20 @@ export const UlSectionMain = styled.ul`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: 'Inter', sans-serif;
 `
 export const LowContainer= styled.li`
     display: flex;
     flex-direction: column;
+    flex-wrap: no-wrap;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 33vw;
+    font-size: 2.5rem;
+
+    &>h3,span{  
+        font-family: sans-serif;
+    }
 
     &:hover{
         background-color: rgba(100, 100, 100, 0.9);
@@ -25,16 +30,22 @@ export const LowContainer= styled.li`
 
     @media(max-width: 800px){
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2.4rem;
     }
 `
 export const LowContainerMid= styled.li`
     display: flex;
     flex-direction: column;
+    flex-wrap: no-wrap;
     align-items: center;
     justify-content: center;
     height: 100%;
     width: 33vw;
+    font-size: 2.5rem;
+
+    &>h3,span{  
+        font-family: sans-serif;
+    }
 
     &:hover{
         background-color: rgba(100, 100, 100, 0.9);
@@ -43,6 +54,6 @@ export const LowContainerMid= styled.li`
 
     @media(max-width: 800px){
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 2.4rem;
     }
 `

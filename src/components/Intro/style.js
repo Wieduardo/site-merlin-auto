@@ -7,7 +7,8 @@ export const SectionIntro = styled.section`
     flex-direction: row;
     justify-content: center;
     gap: 40px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-size: 2rem;
 
     &>img{
         max-width: 30vw;
@@ -33,17 +34,19 @@ export const IntroText= styled.div`
         color: var(--color-primary);
         margin: 10px 0;
         font-weight: bold;
-        font-size:2rem;
+        font-size:3rem;
     };
     &>h3{
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
     &>text{
         text-align: justify;
+        font-family: sans-serif;
     }
 
     @media(max-width: 800px){
         width: 80vw;
+        align-items: center;
     }
 `

@@ -7,9 +7,12 @@ export const FooterContainer= styled.footer`
     flex-direction: column;
     align-items: center;
     padding: 30px 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Road Rage', cursive;
+    font-size: 2.5rem;
+
     &>h3 {
-    padding:20px 0;
+        padding:20px 0;
+        font-family: sans-serif;
     }
 `
 
@@ -83,8 +86,15 @@ export const FooterEndereco= styled.div`
     width: 40vw;
     min-height: 20vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    
+    &>h3,span{
+        font-family: sans-serif;
+    }
 
     @media(max-width: 800px){
         width: 90vw;

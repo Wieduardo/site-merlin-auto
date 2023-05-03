@@ -2,6 +2,7 @@ import { createContext } from "react";
 import { MdCarRepair } from 'react-icons/md'
 import { ImCogs } from 'react-icons/im'
 import { FaTruckLoading } from 'react-icons/fa'
+import { HiOutlineWrenchScrewdriver } from 'react-icons/hi2'
 
 export const GlobalContext = createContext([]);
 
@@ -9,9 +10,10 @@ export const GlobalProvider = ({children}) =>{
 
     //Catalogo de sites
     const catalogo = [
-        {nome: "Reparos", descri: "Descrição vem aqui", icon: <MdCarRepair/>},
-        {nome: "Manutenção", descri: "Descrição vem aqui", icon: <ImCogs/>},
-        {nome: "Peças", descri: "Descrição vem aqui", icon: <FaTruckLoading/>}
+        {nome: "Corretivos", descri: "Serviços completos em mecânica corretiva, seja motor, injeção, suspensão e freios.", icon: <MdCarRepair/>},
+        {nome: "Preventivo", descri: "Para sua tranquilidade, oferecemos serviços profissionais em troca de óleo, filtros, alinhamentos, balanceamento, correias e tudo o mais que possa lhe assegurar boa direção.", icon: <ImCogs/>},
+        {nome: "Diagnósticos", descri: "Oferecemos uma revisão completa com diagnostico e orçamento sem compromisso, para lhe assegurar planejamento e tranquilidade, além de vida útil para seu veículo.", icon: <FaTruckLoading/>},
+        {nome: "Missão", descri: "Assegurar aos nossos clientes, sempre um serviço de excelência baseado numa politica de melhoria contínua.", icon: <HiOutlineWrenchScrewdriver/>}
     ];
 
     //Contato
@@ -21,9 +23,9 @@ export const GlobalProvider = ({children}) =>{
         twitter:"http://twitter.com.br",
         facebook:"http://facebook.com.br",
         insta:"http://instagram.com.br",
-        cidade:"Cidade",
-        bairro:"Bairro",
-        rua:"Rua - nº xxxx"
+        cidade:"Curitiba/PR",
+        bairro:"Boqueirão",
+        rua:"Rua Gabriel Corisco Domingues, n.221"
 
     }
 

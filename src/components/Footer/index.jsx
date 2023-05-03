@@ -35,7 +35,7 @@ const Footer = () => {
                     </li>
                 </FooterMedia>
                 <FooterEndereco>
-                    <h4>Endereço:</h4>
+                    <h3>Endereço:</h3>
                     <span> {userData.rua} - {userData.bairro} - {userData.cidade}</span>
                 </FooterEndereco>
             </MediaContainer>
